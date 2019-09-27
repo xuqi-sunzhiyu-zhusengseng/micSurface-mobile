@@ -1,0 +1,46 @@
+@import "variable.styl"
+
+body, html
+  line-height: 1
+  font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback'
+  user-select: none
+  -webkit-tap-highlight-color: transparent
+  color: $colorDefault
+  background-size: cover;
+  min-height: 100vh;
+
+#app
+    height:100%;
+
+.flex
+  display: flex
+  justify-content center
+  align-items center
+
+.img_auto
+  display block
+  width:100%
+  height:auto
+
+.bold
+  font-weight:700
+
+.ellipsis
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+
+.content
+  width:1080px;
+  margin: 0 auto;
+  position: relative
+  padding-bottom: 20px;
+
+.mint-msgbox
+  max-width:360px;
+.mint-msgbox
+  font-size:$fontSize-16
+.mint-msgbox-title
+  font-size:$fontSize-20
+.mint-msgbox-confirm
+  font-size:$fontSize-16
