@@ -1,6 +1,8 @@
 <template>
     <div class="HomePage" style="color:#f80000;font-size:36px;">
       Home
+
+      <i class="iconfont icon-youjian"></i>
     </div>
 </template>
 

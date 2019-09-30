@@ -1,10 +1,18 @@
 import {
-  RECEIVE_PLATFORM,
+  RECEIVE_EVENTID,
+  RECEIVE_CAMPAIGNCHANNELID,
+  RECEIVE_ACTIVITYALLMESSAGE
 } from './mutations-types'
 
 export default {
-  //模板
-  [RECEIVE_PLATFORM](state,platform){
-    state.platform = platform
+  [RECEIVE_EVENTID](state,eventId){
+    state.activityMessage.eventId = eventId
   },
+  [RECEIVE_CAMPAIGNCHANNELID](state,campaignChannelId){
+    state.activityMessage.campaignChannelId = campaignChannelId
+  },
+  [RECEIVE_ACTIVITYALLMESSAGE](state,activityAllMessage){
+    state.activityAllMessage = activityAllMessage
+  },
+
 }
